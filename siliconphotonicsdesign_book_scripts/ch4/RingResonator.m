@@ -1,7 +1,7 @@
 % RingResonator.m: Ring Resonator spectrum
 % Usage, e.g.,
 %   lambda = (1540:0.001:1550)*1e-9
-%   [Ethru Edrop Qi Qc]=RingMod(lambda, 'add-drop', 10e-6, 0 );
+%   [Ethru, Edrop, Qi, Qc]=RingResonator(lambda, 'add-drop', 10e-6, 0 );
 %   plot (lambda, [abs(Ethru); abs(Edrop)])
 % Wei Shi, UBC, 2012, weis@ece.ubc.ca
 
